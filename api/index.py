@@ -1,5 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
+import qrcode
 
 class handler(BaseHTTPRequestHandler):
 
